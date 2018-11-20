@@ -4,9 +4,7 @@
     scroll-behavior: smooth;
     background: #414042 !important;
     color: #ffffff;
-}
-.mainpage{
-    padding: 200px 0px;
+    padding: 100px 0px 100px 0px ;
 }
 /* Navbar */
 .navbar{
