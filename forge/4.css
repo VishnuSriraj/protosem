@@ -1,0 +1,222 @@
+    img
+    {
+    height: auto;
+    width: 100%;
+}
+
+
+body,html
+{
+	color: #ffffff;
+	margin:0;
+}
+
+td,th{
+	color: #dbdde0;
+}
+
+.bgs
+{
+background-color:#414042!important;
+}
+
+.btn-warning
+{
+	background: #f58220!important;
+	border: 1px solid transparent;
+	border-color:#f58220!important;;
+}
+
+.r1
+{
+	color: #ffffff;
+	background-color:#414042;
+
+}
+
+
+html,.bgc
+{
+	color:#dcdee0;
+	background-color:#414042;
+}
+
+.pro
+{
+	padding-left:10%;
+	padding-right: 10%;
+	text-align: center;
+}
+.l1
+{
+	margin-top: 5%!important;
+	margin-left: 10%;
+}
+
+.value_prop
+{
+	text-align: center;
+	margin-top: 10%;
+  font-size:2.3vh;
+}
+
+.value_prop:first-letter{
+  text-transform: capitalize;
+  margin-bottom:10%;
+
+}
+
+
+#myProgress {
+    width: 100%;
+    background-color: grey;
+    margin-bottom:10%;
+    margin-top:3%;
+    position: relative;
+}
+#myBar {
+    width:1%;
+    height:10px;
+    background-color:#fcaf17;
+}
+
+
+
+
+.img1
+{
+	width:1.1vw;
+	height:2.6vh;
+	position: absolute;
+	z-index: 500;
+	top:-35%;
+	left:10%;
+}
+
+.img2
+{
+	width:1.1vw;
+	height:2.6vh;
+	position: absolute;
+	z-index: 500;
+	top:-35%;
+	left:10%;
+}
+
+.img3
+{
+	width:1.1vw;
+	height:2.6vh;
+	position: absolute;
+	z-index: 500;
+	top:-35%;
+	left:30%;
+}
+.img4
+{
+	width:1.1vw;
+	height:2.6vh;
+	position: absolute;
+	z-index: 500;
+	top:-35%;
+	left:50%;
+}
+.img5
+{
+	width:1.1vw;
+	height:2.6vh;
+	position: absolute;
+	z-index: 500;
+	top:-35%;
+	left:70%;
+}
+
+
+.img6
+{
+	width:1.1vw;
+	height:2.6vh;
+	position: absolute;
+	z-index: 500;
+	top:-35%;
+	left:95%;
+}
+
+
+#progress_iden
+{
+	margin-top: 10%;
+}
+
+.sp1
+{
+	margin-right:  
+}
+
+.pi1
+{
+text-align: right;
+font-size:1.1vw;
+}
+
+
+.pi2
+{
+font-size:1.1vw;
+}
+
+
+.pi3
+{
+text-align: right;
+font-size:1.1vw;
+}
+
+
+.pi4
+{
+text-align: right;
+font-size:1.1vw;
+}
+
+.pi5
+{
+text-align: right;
+font-size:1.1vw;
+
+
+}
+
+#change
+{
+	margin-top: 5%;
+}
+
+
+.col-md-5
+{
+	background-color:#414042;
+
+}
+
+
+#saii
+{
+	padding-top:6%;
+	background-color:#414042;
+
+}
+
+.col-md-1
+{
+	padding-right: 0px!important;
+	padding-left: 0px!important;
+
+}
+
+
+.saii2
+{
+	padding-top:2%;
+	background-color:#414042;
+}
