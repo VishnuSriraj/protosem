@@ -14,7 +14,9 @@ body,html
 td,th{
 	color: #dbdde0;
 }
-
+body h2{
+	color: #dbdde0;
+}
 .bgs
 {
 background-color:#414042!important;

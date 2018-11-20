@@ -92,7 +92,7 @@ font-size: 1.3em;
 	background-color: white;
 	padding:8%;
 	visibility: hidden;
-	opacity:1;
+	opacity:0;
 	color: black;
 	
 
@@ -103,7 +103,7 @@ font-size: 1.3em;
 {
 	visibility: visible;
 	opacity:0.93;
-	
+    transition-duration: 1s;
 }
 
 
