@@ -150,11 +150,11 @@ html,.bgc
 {
 	margin-top: 10%;
 }
-
+/* 
 .sp1
 {
 	margin-right:  
-}
+} */
 
 .pi1
 {
@@ -208,6 +208,12 @@ font-size:1.1vw;
 	padding-top:6%;
 	background-color:#414042;
 
+}
+
+#saii .container-fluid{
+	
+    box-shadow: -2px -2px 15px 1px #000000;
+	padding-top:50px ; 
 }
 
 .col-md-1
