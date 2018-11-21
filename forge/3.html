@@ -18,19 +18,19 @@
 
 <body>
 <!-- Navbar -->
-<nav class="navbar navbar-dark navbar-expand-sm fixed-top">
-		<div class="container-fluid">            
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
-				<span class="navbar-toggler-icon"></span>
-			</button>
-			<a class="navbar-brand mr-10" href="http://www.forgeforward.in/"><img src="../assets/images/LOGO_FORGE_LANDSCAPE.png" /></a>
-			<div class="collapse navbar-collapse" id="Navbar">
-				<ul class="navbar-nav mr-auto">
+<nav id="mynavbar" class="navbar navbar-dark navbar-expand-lg fixed-top">
+	<div class="container-fluid">            
+		<button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<a class="navbar-brand mr-10" href="http://www.forgeforward.in/"><img src="../assets/images/LOGO_FORGE_LANDSCAPE.png"  /></a>
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav ml-auto mr-3">
 					<li class="nav-item active"> <a class="nav-link" href="../index.html"> Home</a> </li>
 					<li class="nav-item"> <a class="nav-link" href="#">Innovations</a> </li>
 					<li class="nav-item"> <a class="nav-link" href="../index.html#partners">Partners & Sponsers</a> </li>
-					<li class="nav-item"> <a class="nav-link" href="https://drive.google.com/file/d/1m9By6ht5LUM9wtP6F_xGZzMU2zX3QxsT/view">Curriculum</a> </li>
-					<li class="nav-item"> <a class="nav-link" href="../dlap.html">Life @ ProtoSem</a> </li>
+                    <li class="nav-item"> <a class="nav-link" href="#">Curriculum</a> </li>
+					<li class="nav-item"> <a class="nav-link" href="../dlap.html">A Day In ProtoSem</a> </li>
 				</ul>
 				<span class="navbar-text">
 					<a class="nav-link btn btn-danger " href="https://docs.google.com/forms/d/e/1FAIpQLSfKrIVLdtt98Lt01aLb6Ny0tZPyvepbY73AKjPjLHEHh34usg/viewform" >Apply Now</a>
@@ -45,12 +45,12 @@
 
 		</div>
 
-		<div class="col-md-4 pro">
-			<h3 class="display-4 tt">
-				 PRODUCT INNOVATIONS
+		<div class="col-md-5 pro">
+			<h3 class="display-4 tt" style="margin-top:30%">
+				<p style="margin-left:10%">PRODUCT INNOVATIONS</p>	
 			</h3>
 
-			<ul class="l1">
+			<ul  style="margin-left:20%" class="l1">
 				<li class="lis1"><button type="button" class="buttons b2" id="h1">Protosem 17.1</button></li>
 				<li class="lis1"><button type="button" class="buttons b3" id="h2" >Protosem 18.1</button></li>
 				<li class="lis1"><button type="button" class="buttons b4" id="h3">Protosem 18.2</button></li>
@@ -62,7 +62,7 @@
 
 		</div>
 		<div class="col-md-5 con1">
-			<img src="./4.JPG" class="img-fluid" id="change" >
+			<img src="./4.jpg" class="img-fluid" id="change" >
 
 		</div>
 
@@ -76,38 +76,33 @@
 			
 
 		</div>
-
-		<div class="col-md-5 con filterDiv psem_1">
-			<img src="10.jpg" class="img-fluid">
+		<div class="col-md-5 con filterDiv psem_2">
+			<img src="../assets/images/Proto contents/18.1 Gloveit/mup.jpg" class="img-fluid">
 			<div class="hovcon">
 				<h4>GLove IT</h4>
 
 
 				<div class="hovcon_content">
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation 
+					A Digital Monitoring Kit for Limb Physiotherapy Rehab with gamified user interface and accurate measurements of motor movements.
 				</div>
 
-				<button type="button" class="btn btn-outline-primary sai2">Learn more</button>
+				<button onclick="location.href='./gloveit.html'" type="button" class="btn btn-outline-primary sai2">Explore</button>
 
 			</div>
 		</div>
 
 
-		<div class="col-md-5 con filterDiv psem_1">
-			<img src="11.jpg" class="img-fluid">
+		<div class="col-md-5 con filterDiv psem_2">
+			<img src="../assets/images/Proto contents/18.1 Railways/mup.jpg" class="img-fluid">
 			<div class="hovcon">
-				<h4>GLove IT</h4>
+				<h4>Automated Rail Monitoring for NDT Fault Detection</h4>
 
 
 				<div class="hovcon_content">
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation 
+				Double Rail USFD method with NDT to predict track failure with alert system to central server
 				</div>
 
-				<button type="button" class="btn btn-outline-primary sai2">Learn more</button>
+				<button onclick="location.href='./railways.html'" type="button" class="btn btn-outline-primary sai2">Explore</button>
 
 			</div>
 		</div>
@@ -127,36 +122,32 @@
 		</div>
 
 		<div class="col-md-5 con filterDiv psem_2">
-			<img src="8.jpg" class="img-fluid">
+			<img src="../assets/images/Proto contents/18.1 Wildanimals/mup.jpg" class="img-fluid">
 			<div class="hovcon">
-				<h4>GLove IT</h4>
+				<h4>Wildlife Monitoring And Alert System for Farms</h4>
 
 
 				<div class="hovcon_content">
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation 
+				Smart wild animal intrusion detection system that alerts the stakeholders in event of wild animals movement.
 				</div>
 
-				<button type="button" class="btn btn-outline-primary sai2">Learn more</button>
+				<button onclick="location.href='./animal_monitoring.html'" type="button" class="btn btn-outline-primary sai2">Explore</button>
 
 			</div>
 		</div>
 
 
 		<div class="col-md-5 con filterDiv psem_2">
-			<img src="9.jpg" class="img-fluid">
+			<img src="../assets/images/Proto contents/18.1 ispecs/mup.jpg" class="img-fluid">
 			<div class="hovcon">
-				<h4>GLove IT</h4>
+				<h4>iSpecs</h4>
 
 
 				<div class="hovcon_content">
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation 
+					Innovative spectacles for partial visually challenged to enhance efficiency in work place of different sectors.
 				</div>
 
-				<button type="button" class="btn btn-outline-primary sai2">Learn more</button>
+				<button onclick="location.href='./ispecs.html'" type="button" class="btn btn-outline-primary sai2">Explore</button>
 
 			</div>
 		</div>
@@ -174,36 +165,159 @@
 
 		</div>
 
-		<div class="col-md-5 con filterDiv psem_3">
-			<img src="12.jpg" class="img-fluid" >
+		<div class="col-md-5 con filterDiv psem_1">
+			<img src="../assets/images/Proto contents/17.1 Solar Panel BOT/mup.jpg" class="img-fluid" >
 			<div class="hovcon">
-				<h4>GLove IT</h4>
+				<h4>BOT for Solar Panel Cleaning and Monitoring</h4>
 
 
 				<div class="hovcon_content">
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation 
+				A Bot with waterless cleaning of photovoltaic panels installed in large solar farms.
 				</div>
 
-				<button type="button" class="btn btn-outline-primary sai2">Learn more</button>
+				<button onclick="location.href='./solar_bot.html'" type="button" class="btn btn-outline-primary sai2">Explore</button>
+
+			</div>
+		</div>
+
+
+		<div class="col-md-5 con filterDiv psem_1">
+			<img src="../assets/images/Proto contents/17.1 Smart Dehuller/mup.jpg" class="img-fluid">
+			<div class="hovcon">
+				<h4>Smart Dehuller</h4>
+
+				<div class="hovcon_content">
+					[Machine as a Service] A smart dehuller machine that can automtically measure the quality of millets processed and generate a bill.
+				</div>
+
+				<button onclick="location.href='./smart_dehuller.html'" type="button" class="btn btn-outline-primary sai2" onclick="window.location.href='4.html'">Explore</button>
+
+			</div>
+		</div>
+
+		<div class="col-md-1 bgc">
+			
+
+		</div>
+	</div>
+
+					<div class="row r1">
+				<div class="col-md-1 bgc">
+			
+
+		</div>
+
+		<div class="col-md-5 con filterDiv psem_1">
+			<img src="../assets/images/Proto contents/17.1 Machine Vision/mup.jpg" class="img-fluid" >
+			<div class="hovcon">
+				<h4>Machine Vision for Textile Equipments</h4>
+
+
+				<div class="hovcon_content">
+				A machine vision based object detection system for Textile industries
+				</div>
+
+				<button onclick="location.href='./machine_vision.html'" type="button" class="btn btn-outline-primary sai2">Explore</button>
+
+			</div>
+		</div>
+
+
+		<div class="col-md-5 con filterDiv psem_1">
+			<img src="../assets/images/Proto contents/17.1 Solar Asset Drone/mup.jpg" class="img-fluid">
+			<div class="hovcon">
+				<h4>Drone Based Asset Management for Solar Farms</h4>
+
+				<div class="hovcon_content">
+				A drone with onboard camera and comuper vision to monitor assets in a solar farm.
+				</div>
+
+				<button onclick="location.href='./drone_monitoring.html'" type="button" class="btn btn-outline-primary sai2" onclick="window.location.href='4.html'">Explore</button>
+
+			</div>
+		</div>
+
+		<div class="col-md-1 bgc">
+			
+
+		</div>
+	</div>
+
+					<div class="row r1">
+				<div class="col-md-1 bgc">
+			
+
+		</div>
+
+		<div class="col-md-5 con filterDiv psem_3">
+			<img src="../assets/images/Proto contents/18.2 napkin/mup.jpg" class="img-fluid" >
+			<div class="hovcon">
+				<h4>Smart Sanitary Napkin Dispenser</h4>
+
+
+				<div class="hovcon_content">
+					A smart dispenser to increase the accessibility of sanitary napkins among girls studying in semi-urban schools. 
+					The IoT-based solution monitors and ensures availability of stock, and thus contributing to increased awareness and better hygiene practices. 
+				</div>
+
+				<button onclick="location.href='./napkin.html'" type="button" class="btn btn-outline-primary sai2">Explore</button>
 
 			</div>
 		</div>
 
 
 		<div class="col-md-5 con filterDiv psem_3">
-			<img src="13.jpg" class="img-fluid">
+			<img src="../assets/images/Proto contents/18.2 IPS/mup.jpg" class="img-fluid">
 			<div class="hovcon">
-				<h4>GLove IT</h4>
+				<h4>Individual Protection System for Soldiers</h4>
 
 				<div class="hovcon_content">
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation 
+				An integrated body vest to monitor the parameters of a soldier in a field.
 				</div>
 
-				<button type="button" class="btn btn-outline-primary sai2" onclick="window.location.href='4.html'">Learn more</button>
+				<button onclick="location.href='./ips.html'" type="button" class="btn btn-outline-primary sai2" onclick="window.location.href='4.html'">Explore</button>
+
+			</div>
+		</div>
+
+		<div class="col-md-1 bgc">
+			
+
+		</div>
+	</div>
+
+					<div class="row r1">
+				<div class="col-md-1 bgc">
+			
+
+		</div>
+
+		<div class="col-md-5 con filterDiv psem_3">
+			<img src="../assets/images/Proto contents/18.2 Matcutting/mup.jpg" class="img-fluid" >
+			<div class="hovcon">
+				<h4>Semi Automated Cutting and Trimming Machine for Polymer Mats</h4>
+
+
+				<div class="hovcon_content">
+					An automated solution to improve quality and to reduce dependency on manual labour during the trimming of polymer mat edges.
+				</div>
+
+				<button onclick="location.href='./mat_cutting.html'" type="button" class="btn btn-outline-primary sai2">Explore</button>
+
+			</div>
+		</div>
+
+
+		<div class="col-md-5 con filterDiv psem_3">
+			<img src="../assets/images/Proto contents/18.2 Ambience/mup.jpg" class="img-fluid">
+			<div class="hovcon">
+				<h4>Ambience Monitoring System for Hospitals</h4>
+
+				<div class="hovcon_content">
+					Continuous monitoring of hospital ambience parameters and alert system using LoRaWAN.
+				</div>
+
+				<button onclick="location.href='./ambience_monitoring.html'" type="button" class="btn btn-outline-primary sai2" onclick="window.location.href='4.html'">Explore</button>
 
 			</div>
 		</div>
@@ -216,40 +330,45 @@
 
 
 </div>
-<footer class="footer">
-		<div class="container">
-			<div class="row">             
-				
-				<div class="col-md-7 col-xs-12">
-					<h4>VISIT US</h4>
-					<address>
-						<p>FORGE.FACTORY
-						G Floor, KCT Tech Park,
-						#3 Athipalayam Road,
-						Chinnavedampatti,
-						Coimbatore 641049. </p>
-						<a class="fa fa-phone "></a> +91-422-266-7622<br>
-					</address>
+<footer class="footer" data-aos="fade-out" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="600">
+	<div class="container">
+		<div class="row">             
+			
+			<div class="col-md-7 col-xs-12">
+				<h4>VISIT US</h4>
+				<address>
+					<p>FORGE.FACTORY
+					G Floor, KCT Tech Park,
+					#3 Athipalayam Road,
+					Chinnavedampatti,
+					Coimbatore 641049. </p>
+					<a class="fa fa-phone "></a> +91-422-266-7622 
+				</address>
+			</div>
+			<div class="row col-md-5  align-self-center">
+				<div class="text-center">
+					<a class="btn btn-social-icon btn-facebook" href="https://www.facebook.com/FORGEAccelerator"><i class="fab fa-facebook fa-lg"></i></a>
+					<a class="btn btn-social-icon btn-linkedin" href="https://www.linkedin.com/company/forge-innovcation-accelerator/?trk=biz-companies-cym"><i class="fab fa-linkedin fa-lg"></i></a>
+					<a class="btn btn-social-icon btn-twitter" href="https://twitter.com/FORGE_FORCE"><i class="fab fa-twitter fa-lg"></i></a>
+					<a class="btn btn-social-icon btn-google" href="https://www.youtube.com/channel/UCsK7kqSr3zIug9TD74awjlg"><i class="fab fa-youtube fa-lg"></i></a>
+					<a class="btn btn-social-icon" href="mailto:info@forgeforward.in"><i class="fa fa-envelope fa-lg"></i></a>
 				</div>
-				<div class="col-md-5  align-self-center">
-					<div class="text-center">
-						<a class="btn btn-social-icon btn-facebook" href="https://www.facebook.com/FORGEAccelerator"><i class="fab fa-facebook fa-lg"></i></a>
-						<a class="btn btn-social-icon btn-linkedin" href="https://www.linkedin.com/company/forge-innovcation-accelerator/?trk=biz-companies-cym"><i class="fab fa-linkedin fa-lg"></i></a>
-						<a class="btn btn-social-icon btn-twitter" href="https://twitter.com/FORGE_FORCE"><i class="fab fa-twitter fa-lg"></i></a>
-						<a class="btn btn-social-icon btn-google" href="https://www.youtube.com/channel/UCsK7kqSr3zIug9TD74awjlg"><i class="fab fa-youtube fa-lg"></i></a>
-						<a class="btn btn-social-icon" href="mailto:info@forgeforward.in"><i class="fa fa-envelope fa-lg"></i></a>
-					</div>
+				<div class="row col-12-sm mt-3 mb-3">
+					 Dinesh | Program Manager | +91 94433 54326
 				</div>
 			</div>
-			<div class="container-fluid  justify-content-center copyrights">             
-                    <div class="row col-12-sm">
-                        <p>© Copyright 2018 FORGE. Made with <span>&hearts;</span> by ProtoSem Team.</p>
-                    </div>
-                </div>
 		</div>
-	</footer>
+		<div class="container-fluid  justify-content-center copyrights">             
+			<div class="row col-12-sm">
+				<p>© Copyright 2018 FORGE. Made with <span>&hearts;</span> by ProtoSem Students.</p>
+			</div>
+			
+		</div>
+	</div>
+</footer>
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 	<script src="assets/js/bootstrap.min.js"></script>
+	<script src="3.js"></script>
 </body>
 </html>

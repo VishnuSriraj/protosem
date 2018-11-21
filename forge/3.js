@@ -6,7 +6,7 @@ var h4 = document.getElementById("hey1");
 
 
 h1.onmouseover = function() {
-  change.src="6.jpg"
+ 
 
 document.getElementById("sai2").style.visibility = "visible";
 document.getElementById("sai2").style.opacity = "0.85";
@@ -26,7 +26,7 @@ h1.onmouseout = function() {
 
 
 h2.onmouseover = function() {
-  change.src="5.jpg"
+  
   document.getElementById("sai2").style.visibility = "visible";
   document.getElementById("sai2").style.opacity = "0.85";
    document.getElementById("change").style.height="70%";
@@ -35,13 +35,13 @@ h2.onmouseover = function() {
 };
 
 h2.onmouseout = function() {
-  change.src="4.jpg"
+
   document.getElementById("sai2").style.visibility = "hidden";
 };
 
 
 h3.onmouseover = function() {
-  change.src="7.jpg"
+
   document.getElementById("sai2").style.visibility = "visible";
   document.getElementById("sai2").style.opacity = "0.85";
   h4.innerText="Protosem 18.2";

@@ -10,6 +10,10 @@ body
 	margin:0;
 }
 
+.col-md-5 img{
+    box-shadow: 2px 2px 15px 3px #000000;
+
+}
 
 
 .bgs

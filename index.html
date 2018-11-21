@@ -3,12 +3,12 @@
 	<head>
 		<title>ProtoSem</title>
 		<meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
         <link href="assets/css/main.css" rel="stylesheet" >
         <link href="assets/css/bootstrap.min.css" rel="stylesheet" >
         <link href="assets/css/aos.css" rel="stylesheet" >
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-        <script type="text/javascript" src="./forge/countUp.js-master/countUp.js"></script>
+        
         <link rel="icon" href="./assets/images/favicon.jpg" type="image/gif" sizes="16x16">
         <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700i" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -17,19 +17,19 @@
     </head>
     <body>
         <!-- Navbar -->
-        <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
+        <nav id="mynavbar" class="navbar navbar-dark navbar-expand-lg fixed-top">
             <div class="container-fluid">            
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+                <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <a class="navbar-brand mr-10" href="http://www.forgeforward.in/"><img src="assets/images/LOGO_FORGE_LANDSCAPE.png"  /></a>
-                <div class="collapse navbar-collapse" id="Navbar">
-                    <ul class="navbar-nav mr-auto">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto mr-3">
                         <li class="nav-item active"> <a class="nav-link" href="#"> Home</a> </li>
                         <li class="nav-item"> <a class="nav-link" href="./forge/3.html">Innovations</a> </li>
                         <li class="nav-item"> <a class="nav-link" href="#partners">Partners & Sponsers</a> </li>
-                        <li class="nav-item"> <a class="nav-link" href="https://drive.google.com/file/d/1m9By6ht5LUM9wtP6F_xGZzMU2zX3QxsT/view">Curriculum</a> </li>
-                        <li class="nav-item"> <a class="nav-link" href="./dlap.html">Life @ ProtoSem</a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="https://goo.gl/forms/tYKKy31Z0QbRVArm1">Curriculum</a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="./dlap.html">A Day In ProtoSem</a> </li>
                     </ul>
                     <span class="navbar-text">
                         <a class="nav-link btn btn-danger " href="https://docs.google.com/forms/d/e/1FAIpQLSfKrIVLdtt98Lt01aLb6Ny0tZPyvepbY73AKjPjLHEHh34usg/viewform" >Apply Now</a>
@@ -37,8 +37,10 @@
                 </div>              
             </div>
         </nav>
+        
+        
         <div class="container-fluid mainpage">
-
+                
             <div class="row">
                 <div class ="col-md-3">
                 </div>
@@ -90,15 +92,18 @@
             </div>
         </div>
 
-        <a href="#why" ><p class="downarrow"><i class="arrow down"></i></p></a>
+        <a href="#why" ><p class="downarrow defect"><i class="arrow down"></i></p></a>
         </div>
-        
+
+
+
+    <!-- why -->
         <div id="why" class="container-fluid" >
             <div style="height:90px;"></div>
                 <div class="row">
                     <div class="col-md-1"></div>
 
-                    <div class="col-md-3" data-aos="fade-right" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="500">
+                    <div class="col-md-3 mm" data-aos="fade-right" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="500">
                             <h2>Why ProtoSem?</h2>
                             <div class="row">
                                 <div class="col-md-12">
@@ -106,7 +111,7 @@
                             </div>
                             </div>
                     </div>
-                    <div class="col-md-7" data-aos="fade-left" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="500">
+                    <div class="col-md-7 mmi" data-aos="fade-left" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="500">
                         <img src="./assets/images/360D_Engg_Education.001.jpeg" class="img-fluid">
                     </div>
 
@@ -114,7 +119,7 @@
 
                 </div>
                 
-        <a href="#what" ><p class="downarrow"><i class="arrow down"></i></p></a>
+        <a href="#what" ><p class="downarrow da2"><i class="arrow down"></i></p></a>
             </div>
 
 
@@ -124,6 +129,14 @@
              <div style="height:90px;"></div>
             <div class="row">
                 <div class ="col-md-1">
+                </div>
+                 <div class="col-md-3 what_inv" data-aos="fade-left" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="500">
+                             <h2>WHAT?</h2>
+                            <div class="row">
+                                <div class="col-md-12">
+                                <p>ProtoSem [Micro-Innovators] is a first-of-its-kind program launched by FORGE that embeds an innovation centred approach to engineering education right into the core of the engineering curriculum - innovation aimed at engineering tech-enabled solutions for real-world problems.</p>
+                            </div>
+                            </div>
                 </div>
                 <div class="col-md-7" data-aos="fade-right" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="500">
                                 <div class="card-columns">
@@ -163,9 +176,9 @@
                                             </div>
                                                      
                                            
-                                            <div class="card" style="width: 18rem;">
+                                            <div class="" style="">
                                                     <div class="card-body">            
-                                                        <img src="assets/images/center-img.png" alt="" class="img-thumbnail" style="background-color:#414042;border: 0px; margin-top:50px;">
+                                                        <img src="assets/images/center-img.png" alt="" class="img-thumbnail" style="background-color:#414042;border: 0px; ">
                                                     </div>
                                             </div>
                                             <div class="card"  style="width: 18rem;">
@@ -206,7 +219,7 @@
                                             </div>
                                 </div>
                 </div>
-                <div class="col-md-3" data-aos="fade-left" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="500">
+                <div class="col-md-3 what-vis" data-aos="fade-left" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="500">
                              <h2>WHAT?</h2>
                             <div class="row">
                                 <div class="col-md-12">
@@ -230,7 +243,7 @@
                 <div class ="col-md-1">
                 </div>
 
-                 <div class="col-md-3" data-aos="fade-right" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="500">
+                 <!-- <div class="col-md-3" data-aos="fade-right" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="500">
                     <h2>WHO?</h2>
                     <div class="row">
                     <div class="col-md-12">
@@ -246,36 +259,61 @@
                     </div>
                     </div>
 
-                </div>
-
-                <div class="col-md-7" data-aos="fade-left" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="500">
-                    <div id="video_carousel" class="carousel slide" data-ride="carousel">
+                </div> -->
+                
+                <div class="col-md-10 who_sub" data-aos="fade-left" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="500" >
+                    <div id="video_carousel" class="carousel slide" data-ride="carousel" data-interval="false">
                         <ol class="carousel-indicators">
                           <li data-target="#video_carousel" data-slide-to="0" class="active"></li>
                           <li data-target="#video_carousel" data-slide-to="1" ></li>
                           <li data-target="#video_carousel" data-slide-to="2"></li>
-                          <li data-target="#video_carousel" data-slide-to="3"></li>
-                          <li data-target="#video_carousel" data-slide-to="4"></li>
+                          
                         </ol>
+                        
                         <div class="carousel-inner">
-                          <div class="carousel-item active">
-                                <iframe width="100%" height="543" src="https://www.youtube.com/embed/ZhZc7gdXAtY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                          </div>
-                          <div class="carousel-item">
-                                <iframe width="100%" height="543" src="https://www.youtube.com/embed/_Dt1uUks6H8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                          </div>
-                          <div class="carousel-item">
-                                <iframe width="100%" height="543" src="https://www.youtube.com/embed/lK2R8nLTRPI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                          </div>
-                          <div class="carousel-item">
-                                <iframe width="100%" height="543" src="https://www.youtube.com/embed/tWIZf8xHNpI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                          </div>
-                          <div class="carousel-item">
-                                <iframe width="100%" height="543" src="https://www.youtube.com/embed/VNVPvuf8sBU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <div class="carousel-item active">
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                                <iframe width="auto" height="auto" src="https://www.youtube.com/embed/ZhZc7gdXAtY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <iframe width="auto" height="auto" src="https://www.youtube.com/embed/_zRwnDfaSv4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+                                        </div>
+                                        <div class="col-md-4">
+                                            <iframe width="auto" height="auto" src="https://www.youtube.com/embed/KQykGidIzIM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                                        
+                                        </div>
+                                    </div>
+                                </div>
+                        
+
+                                
+                                <div class="carousel-item ">
+                                        <div class="row">
+                                            <div class="col-md-4">
+                                                <iframe width="auto" height="auto" src="https://www.youtube.com/embed/VNVPvuf8sBU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                                            </div>
+                                            <div class="col-md-4">
+                                                <iframe width="auto" height="auto" src="https://www.youtube.com/embed/bSwXYMp4CBI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                                            </div>
+                                            <div class="col-md-4">
+                                                <iframe width="auto" height="auto" src="https://www.youtube.com/embed/lK2R8nLTRPI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item ">
+                                            <div class="row">
+                                                <div class="col-md-4">
+                                                    <iframe width="auto" height="auto" src="https://www.youtube.com/embed/tWIZf8xHNpI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                                                </div>
+                                                <div class="col-md-4">
+                                                    <iframe width="auto" height="auto" src="https://www.youtube.com/embed/hlthXcH919k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                                                </div>
+                                                <div class="col-md-4">
+                                                    <iframe width="auto" height="auto" src="https://www.youtube.com/embed/61eAOMV10HE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                          
+                               
                           </div>
 
                         </div>
-                        <a class="carousel-control-prev" href="#video_carousel" role="button" data-slide="prev">
+                        <a class="carousel-control-prev" href="#video_carousel" role="button" data-slide="prev" style="padding-right:9%">
                           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                           <span class="sr-only">Previous</span>
                         </a>
@@ -284,11 +322,12 @@
                           <span class="sr-only">Next</span>
                         </a>
                       </div>
-                </div>
+                
                 <div class ="col-md-1">
                 </div>
+            </div>
         </div>
-        <a href="#how" ><p class="downarrow"><i class="arrow down"></i></p></a>
+        <a href="#how" ><p class="downarrow car_arr"><i class="arrow down"></i></p></a>
     </div>
 
         <div id="how" class="container-fluid" >
@@ -297,9 +336,10 @@
                 <div class ="col-md-1">
                 </div>
                 <div class="col-md-7" data-aos="fade-right" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="500">
-                <img src="../../forge/4.jpg" class="img-fluid">
+                    <div id="chartContainer" style="height: 300px; width: auto;"></div>
+                    <p>Total Number of Hours : 72</p>
                 </div>
-                <div class="col-md-3" data-aos="fade-left" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="500">
+                <div class="col-md-3 how_sub" data-aos="fade-left" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="500">
                         <h2>HOW</h2>
                 <div class="row">
                     <div class="col-md-12">
@@ -326,7 +366,7 @@
                <div class="row">
                 <div class ="col-md-1">
                 </div>
-                <div class="col-md-3" data-aos="fade-right" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="500">
+                <div class="col-md-3 where_sub" data-aos="fade-right" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="500">
 
                             <h2>WHERE?</h2>
                     <div class="row">
@@ -349,140 +389,121 @@
 
         <!-- innovations- -->
 
-        <div id="innovations" class="container page" data-aos="fade-up" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="600">
+        <div id="innovations" class="container page inn_sub" data-aos="fade-up" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="600">
                 <div style="height:80px;"></div>
             <div class="row ">
+                  <div class ="col-md-1">
+                </div>
                     
+                <div class="col-md-10">
                 <h2>Innovations at ProtoSem</h2>
             </div>
+                  <div class ="col-md-1">
+                </div>
+            </div>
                 <div class="row ">
+                                  <div class ="col-md-1">
+                </div>
+                <div class="col-md-10">
 
                 <p>Problem solving is most effective when the prototyping process is agile and iterative.</p>
+                     </div>
+
+                                  <div class ="col-md-1">
+                </div>
                 </div>
                 
-                <div class="row mup ">
-                    <section class="col-4 col-6-medium col-12-xsmall">
+                <div class="row mup">
+                    <section class="col-md-4 badsec">
                         <span class="product"></span>
                         <h3>Glove It</h3>
                         <p>Smart Gloves for Assisted Physiotherapy</p>
                     </section>
-                    <section class="col-4 col-6-medium col-12-xsmall">
+                    <section class="col-md-4">
                         <span class="product"></span>
                         <h3>|Spine</h3>
                         <p>Smart Sanitary Napkin Dispenser</p>
                     </section>
-                    <section class="col-4 col-6-medium col-12-xsmall">
+                    <section class="col-md-4">
                         <span class="product"></span>
                         <h3>iSpecs</h3>
                         <p>Smart Glasses for Partially Blind</p>
                     </section>
                 </div>
                 <div class="row mup">
-                    <section class="col-4 col-6-medium col-12-xsmall">
+                    <section class="col-md-4">
                         <span class="product"></span>
                         <h3>Ambience</h3>
                         <p>Ambience Monitoring System for Hospitals</p>
                     </section>
-                    <section class="col-4 col-6-medium col-12-xsmall">
+                    <section class="col-md-4">
                         <span class="product"></span>
                         <h3>Foundry</h3>
                         <p>Power Saving in Foundry</p>
                     </section>
-                    <section class="col-4 col-6-medium col-12-xsmall">
+                    <section class="col-md-4">
                         <span class="product"></span>
                         <h3>RailwayBot</h3>
                         <p>Automated Railway Track Monitoring Bot</p>
                     </section>
                 </div>
+                <div style="text-align: center;">
                 <a href="./forge/3.html" class="btn btn-primary">Know More</a>
+            </div>
             
             
         <a href="#mentors" ><p class="downarrow"><i class="arrow down"></i></p></a>
         </div>
             
-        <div id="partners" class="container-fluid page" data-aos="fade-up" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="600">
-        <div id="mentors" class="container-fluid" >
-            
-                    
-            </div>
-            
+        <div id="mentors" class="container-fluid page men_sub" data-aos="fade-up" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="600">
+                                <div style="text-align: center;">
+                       <h2 >Mentors</h2>
+                   </div>
                <div class="row">
-                <div class ="col-md-1">
-                        <div style="height:150px;"></div>
-                       <h2>Mentors</h2>
-                </div>
+                <div class ="col-md-1"></div>
+                
                 <div class="col-12" data-aos="fade-right" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="500">
                         <div class="container">
                                 <div class="row">
                                     <div class="col-md-12">
                                         <div id="testimonial-slider" class="owl-carousel">
                                             <div class="testimonial">
-                                                <span class="icon fa fa-quote-left"></span>
-                                                <p class="description">
-                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam justo neque, aliquet sit amet elementum vel, vehicula eget eros. Vivamus arcu metus, mattis sed sagittis at, sagittis quis neque. Praesent.Vivamus arcu metus, mattis sed sagittis at, sagittis quis neque. Praesent.
-                                                </p>
+                                                <span class="icon fa fa-graduation-cap"></span>
                                                 <div class="testimonial-content">
-                                                    <div class="pic"><img src="assets/images/peer128.png" class=""alt=""></div>
-                                                    <h3 class="title">Name</h3>
-                                                    <!-- <span class="post">Post</span> -->
+                                                    <div class="pic"><img src="assets/images/nallur.jpg" class=""alt=""></div>
+                                                    <a href="https://www.linkedin.com/in/govindaswamy-nallur-2a20301/">
+                                                    <h3 class="title">Govindaswamy Nallur</h3>
+                                                    </a>
                                                 </div>
                                             </div>
                                             <div class="testimonial">
-                                                    <span class="icon fa fa-quote-left"></span>
-                                                    <p class="description">
-                                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam justo neque, aliquet sit amet elementum vel, vehicula eget eros. Vivamus arcu metus, mattis sed sagittis at, sagittis quis neque. Praesent.Vivamus arcu metus, mattis sed sagittis at, sagittis quis neque. Praesent.
-                                                    </p>
+                                                    <span class="icon fa fa-graduation-cap"></span>
                                                     <div class="testimonial-content">
-                                                        <div class="pic"><img src="assets/images/peer128.png" class=""alt=""></div>
-                                                        <h3 class="title">Name</h3>
-                                                        <!-- <span class="post">Post</span> -->
+                                                        <div class="pic"><img src="assets/images/dorai.jpg" class=""alt=""></div>
+                                                        <a href="https://www.linkedin.com/in/doraithodla/">
+                                                                <h3 class="title">Dorai Thodla</h3>
+                                                        </a>
                                                     </div>
                                                 </div>
                                                 <div class="testimonial">
-                                                        <span class="icon fa fa-quote-left"></span>
-                                                        <p class="description">
-                                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam justo neque, aliquet sit amet elementum vel, vehicula eget eros. Vivamus arcu metus, mattis sed sagittis at, sagittis quis neque. Praesent.Vivamus arcu metus, mattis sed sagittis at, sagittis quis neque. Praesent.
-                                                        </p>
+                                                        <span class="icon fa fa-graduation-cap"></span>
                                                         <div class="testimonial-content">
-                                                            <div class="pic"><img src="assets/images/peer128.png" class=""alt=""></div>
-                                                            <h3 class="title">Name</h3>
-                                                            <!-- <span class="post">Post</span> -->
+                                                            <div class="pic"><img src="assets/images/vivek.jpg" class=""alt=""></div>
+                                                            <a href="https://www.linkedin.com/in/ideasvivek/">
+                                                                    <h3 class="title">Vivek Poovalingam</h3>
+                                                            </a>
                                                         </div>
                                                     </div>
                                                
                                                 <div class="testimonial">
-                                                    <span class="icon fa fa-quote-left"></span>
-                                                    <p class="description">
-                                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam justo neque, aliquet sit amet elementum vel, vehicula eget eros. Vivamus arcu metus, mattis sed sagittis at, sagittis quis neque. Praesent.Vivamus arcu metus, mattis sed sagittis at, sagittis quis neque. Praesent.
-                                                    </p>
+                                                    <span class="icon fa fa-graduation-cap"></span>
                                                     <div class="testimonial-content">
-                                                        <div class="pic"><img src="assets/images/peer128.png" class=""alt=""></div>
-                                                        <h3 class="title">Name</h3>
-                                                        <!-- <span class="post">Post</span> -->
+                                                        <div class="pic"><img src="assets/images/selva.jpg" class=""alt=""></div>
+                                                        <a href="https://www.linkedin.com/in/selvakn/">
+                                                                <h3 class="title">Selvakumar Natesan</h3>
+                                                        </a>
                                                     </div>
                                                 </div>
-                                                <div class="testimonial">
-                                                        <span class="icon fa fa-quote-left"></span>
-                                                        <p class="description">
-                                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam justo neque, aliquet sit amet elementum vel, vehicula eget eros. Vivamus arcu metus, mattis sed sagittis at, sagittis quis neque. Praesent.Vivamus arcu metus, mattis sed sagittis at, sagittis quis neque. Praesent.
-                                                        </p>
-                                                        <div class="testimonial-content">
-                                                            <div class="pic"><img src="assets/images/peer128.png" class=""alt=""></div>
-                                                            <h3 class="title">Name</h3>
-                                                            <!-- <span class="post">Post</span> -->
-                                                        </div>
-                                                    </div>
-                                                    <div class="testimonial">
-                                                            <span class="icon fa fa-quote-left"></span>
-                                                            <p class="description">
-                                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam justo neque, aliquet sit amet elementum vel, vehicula eget eros. Vivamus arcu metus, mattis sed sagittis at, sagittis quis neque. Praesent.Vivamus arcu metus, mattis sed sagittis at, sagittis quis neque. Praesent.
-                                                            </p>
-                                                            <div class="testimonial-content">
-                                                                <div class="pic"><img src="assets/images/peer128.png" class=""alt=""></div>
-                                                                <h3 class="title">Name</h3>
-                                                                <!-- <span class="post">Post</span> -->
-                                                            </div>
-                                                        </div>
                                         </div>
                                     </div>
                                 </div>
@@ -495,16 +516,121 @@
         <a href="#partners" ><p class="downarrow"><i class="arrow down"></i></p></a>
     </div>
 
-        <div id="partners" class="container page" data-aos="fade-up" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="600">
-                <div style="height:80px;"></div>   
-            <div class="row mt-5 mb-5">
+        <div id="partners" class="container page par_sub" data-aos="fade-up" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="600">
+                    <div style="text-align: center;margin-bottom: 3%;">
+                       <h2 >Partners</h2>
+                   </div>
+
+            <div class="row part">
+            <div class="col-md-1">
+            </div>
+
+            <div class="col-md-10">
+                <div class="row">
+                    <div class="col-md-2 col-12 img2">
+                        <img src="assets/images/partners/1.jpg">
+                    </div>
+                    <div class="col-md-2 img2">
+                        <img src="assets/images/partners/2.jpg">
+                    </div>
+                    <div class="col-md-2 img2">
+                        <img src="assets/images/partners/3.jpg">
+                    </div>
+                    <div class="col-md-2 img2">
+                        <img src="assets/images/partners/4.jpg">
+                    </div>
+                    <div class="col-md-2 img2">
+                        <img src="assets/images/partners/5.jpg">
+                    </div>
+                    <div class="col-md-2 img2">
+                        <img src="assets/images/partners/5-1.jpg">
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-md-1">
+            </div>
+
+</div>
+
+
+            <div class="row part">
+            <div class="col-md-1">
+            </div>
+
+            <div class="col-md-10">
+                <div class="row">
+                    <div class="col-md-2 col-12 img2">
+                        <img src="assets/images/partners/6.jpg">
+                    </div>
+                    <div class="col-md-2 img2">
+                        <img src="assets/images/partners/7.jpg">
+                    </div>
+                    <div class="col-md-2 img2">
+                        <img src="assets/images/partners/8.jpg">
+                    </div>
+                    <div class="col-md-2 img2">
+                        <img src="assets/images/partners/9.jpg">
+                    </div>
+                    <div class="col-md-2 img2">
+                        <img src="assets/images/partners/10.jpg">
+                    </div>
+                    <div class="col-md-2 img2">
+                        <img src="assets/images/partners/11.jpg">
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-md-1">
+            </div>
+
+</div>
+
+            <div class="row">
+            <div class="col-md-1">
+            </div>
+
+            <div class="col-md-10">
+                <div class="row">
+                    <div class="col-md-2 img2">
+                        <img src="assets/images/partners/12.jpg">
+                    </div>
+                    <div class="col-md-2 img2">
+                        <img src="assets/images/partners/13.png">
+                    </div>
+                    <div class="col-md-2 img2">
+                        
+                    </div>
+                    <div class="col-md-2 img2">
+                        
+                    </div>
+                    <div class="col-md-2 img2">
+                        
+                    </div>
+                    <div class="col-md-2 img2">
+                        
+                    </div>
+
+                </div>
+            </div>
+
+
+            <div class="col-md-1">
+            </div>
+
+</div>
+</div>
+
+<!--             <div class="row mt-5 mb-5">
                         <div class="col-md-4 col-xs-12 mb-5 justify-content-center d-flex"><h3>Innovation for Employability</h3></div>
                         <div class="col-md-4 col-xs-12 mb-5 justify-content-center d-flex"> <h3>Innovation for Skill Development</h3> </div>
-                        <div class="col-md-4 col-xs-12 mb-5 justify-content-center d-flex"> <h3>Innovation for Entrepreneurship</h3></h3></div>
+                        <div class="col-md-4 col-xs-12 mb-5 justify-content-center d-flex"> <h3>Innovation for Entrepreneurship</h3></div>
                     </div>
                     <div class="col-12 col-12-xsmall justify-content-center d-flex"><a href="https://docs.google.com/forms/d/e/1FAIpQLSfKrIVLdtt98Lt01aLb6Ny0tZPyvepbY73AKjPjLHEHh34usg/viewform" class="btn btn-danger">Apply Now</a></div>
         </div>
-
+ -->
         <footer class="footer" data-aos="fade-out" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="600">
             <div class="container">
                 <div class="row">             
@@ -517,10 +643,10 @@
                             #3 Athipalayam Road,
                             Chinnavedampatti,
                             Coimbatore 641049. </p>
-                            <a class="fa fa-phone "></a> +91-422-266-7622<br>
+                            <a class="fa fa-phone "></a> +91-422-266-7622 
                         </address>
                     </div>
-                    <div class="col-md-5  align-self-center">
+                    <div class="row col-md-5  align-self-center">
                         <div class="text-center">
                             <a class="btn btn-social-icon btn-facebook" href="https://www.facebook.com/FORGEAccelerator"><i class="fab fa-facebook fa-lg"></i></a>
                             <a class="btn btn-social-icon btn-linkedin" href="https://www.linkedin.com/company/forge-innovcation-accelerator/?trk=biz-companies-cym"><i class="fab fa-linkedin fa-lg"></i></a>
@@ -528,12 +654,16 @@
                             <a class="btn btn-social-icon btn-google" href="https://www.youtube.com/channel/UCsK7kqSr3zIug9TD74awjlg"><i class="fab fa-youtube fa-lg"></i></a>
                             <a class="btn btn-social-icon" href="mailto:info@forgeforward.in"><i class="fa fa-envelope fa-lg"></i></a>
                         </div>
+                        <div class="row col-12-sm mt-3 mb-3">
+                             Dinesh | Program Manager | +91 94433 54326
+                        </div>
                     </div>
                 </div>
                 <div class="container-fluid  justify-content-center copyrights">             
                     <div class="row col-12-sm">
-                        <p>© Copyright 2018 FORGE. Made with <span>&hearts;</span> by ProtoSem Team.</p>
+                        <p>© Copyright 2018 FORGE. Made with <span>&hearts;</span> by ProtoSem Students.</p>
                     </div>
+                    
                 </div>
             </div>
         </footer>
@@ -541,8 +671,11 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
         <script src="assets/js/bootstrap.min.js"></script>
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
-        <script type="text/javascript" src="./forge/5.js"></script>
+       
         <script type="text/javascript" src="./assets/js/aos.js"></script>
+        <script type="text/javascript" src="./forge/countUp.js-master/countUp.js"></script>
+         <script type="text/javascript" src="./forge/5.js"></script>
+        <script type="text/javascript" src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
         <script>
                 $(document).ready(function(){
                    $("#testimonial-slider").owlCarousel({
@@ -555,6 +688,46 @@
                        autoPlay:true
                    });
                 });
+
+                window.onload = function () {
+                        var chart = new CanvasJS.Chart("chartContainer",
+                        
+                        {
+                            theme: "dark1",    // "light1"
+                            animationEnabled: true,
+                            backgroundColor:"#414042",
+                            title:{
+                            text: "Weekly Schedule (No. Of Hours) "
+                        },
+
+                        data: [
+                        {
+                        bevelEnabled: true,
+                        indexLabelPlacement: "outside",
+                        type: "pie",
+                        dataPoints: [
+                        {  y: 18, indexLabel:"Curricular" },
+                        {  y: 15, indexLabel:"DIY + SS + MOOC" },
+                        {  y: 7, indexLabel:" Extra Curricular"},
+                        {  y: 10, indexLabel:"Industrial Visits" },
+                        {  y: 9, indexLabel: "Master Class"},
+                        {  y: 7, indexLabel:"Office Hours" },
+                        {  y: 6, indexLabel: "Assesments" }
+                        ]
+                        }
+                        ]
+                    });
+
+                        chart.render();
+                    }
+
+
+
+
+
+
+
+
                     </script>
         <script>
             AOS.init();

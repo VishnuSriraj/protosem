@@ -1,0 +1,49 @@
+<script type="text/javascript" src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+
+window.onload = function () {
+                        var chart = new CanvasJS.Chart("chartContainer",
+                        
+                        {
+                            theme: "dark1",    // "light1"
+                            animationEnabled: true,
+                            backgroundColor:"#414042",
+                            title:{
+                            text: "Weekly Schedule (No. Of Hours) "
+                        },
+
+                        data: [
+                        {
+                        bevelEnabled: true,
+                        indexLabelPlacement: "outside",
+                        type: "pie",
+                        dataPoints: [
+                        {  y: 18, indexLabel:"Curricular" },
+                        {  y: 15, indexLabel:"DIY + SS + MOOC" },
+                        {  y: 7, indexLabel:" Extra Curricular"},
+                        {  y: 10, indexLabel:"Industrial Visits" },
+                        {  y: 9, indexLabel: "Master Class"},
+                        {  y: 7, indexLabel:"Office Hours" },
+                        {  y: 6, indexLabel: "Assesments" }
+                        ]
+                        }
+                        ]
+                    });
+
+                        chart.render();
+                    }
+
+
+
+
+
+
+
+
+
+
+<div id="chartContainer" style="height: 300px; width: auto;"></div>
+                    <p>Total Number of Hours : 72</p>
+
+
+
+
